@@ -88,3 +88,30 @@
     flex-grow: 1;
     max-width: 400px;
 }
+
+.agenda__lista{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1.5rem;
+    row-gap: 1rem;
+}
+
+.agenda__item{
+    flex-grow: 1;
+    max-width: 400px;
+}
+
+.agenda__botao{
+    margin-left: auto;
+    display: inline-block;
+    flex-wrap: wrap;
+}
+
+.rodape{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.rodape__logo{
+    align-self: flex-end;
+}
